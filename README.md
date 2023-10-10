@@ -25,7 +25,7 @@ generate_river_nodes_intersections.py
   - connects nearest neighbors randomly according to type
   - Outputs arcs for optimizing over
 
-smart_sight_adjustments
+smart_sight_adjustments.py
   - Used for programming a smart sight that accounts for the holder's tilt and roll
   - Uses 4th order runge-kutta to integrate error of trajectory compared to line of sight out to 300m
   - minimizes the net error in two dimensions using a custom "tightening net search"
