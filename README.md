@@ -30,3 +30,7 @@ smart_sight_adjustments.py
   - Uses 4th order runge-kutta to integrate error of trajectory compared to line of sight out to 300m
   - minimizes the net error in two dimensions using a custom "tightening net search"
   - can be run for any tilt roll angle combination
+
+3D Smoothing.py
+  - Used for demonstrating the ability to take a discrete 3D field and create a continuous 3D function
+
