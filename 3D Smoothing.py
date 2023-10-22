@@ -109,6 +109,9 @@ def plot_spline(intensity=1, wide=w, long=l, delta=s):
     fig=plt.figure()
     ax = fig.add_subplot(111, projection='3d')
     ax.plot_surface(X, Y, np.array(Z))
+    ax.set_xlabel("x")
+    ax.set_ylabel("y")
+    ax.set_zlabel("z")
     return
 
 def get_val(x, y, points, wide=w, long=l, delta=s):
